@@ -15,7 +15,7 @@ const SearchBar =()=>
                 </clipPath>
                 </defs>
             </svg>
-            <input className='grow text-[15px] outline-none bg-transparent leading-[22px] placeholder:text-[#808080] placeholder:text-lg max-sm:text-xs' placeholder='Search features, tutorials, etc.'/>
+            <input className='grow text-[15px] outline-none bg-transparent leading-[22px] placeholder:text-[#808080] placeholder:text-base max-sm:text-xs' placeholder='Search features, tutorials, etc.'/>
 
         </div>
     )
@@ -23,7 +23,7 @@ const SearchBar =()=>
 
 const Navbar = ({setShowSidebar}:any) => {
   return (
-    <nav className='bg-white flex items-center px-8 py-3 space-x-4 fixed top-0 right-0 z-30 max-sm:px-0 max-sm:space-x-2 max-sm:justify-between w-[calc(100vw-320px)] border-b-2 border-gray-400/70 pb-4'>
+    <nav className='bg-white flex items-center px-8 py-3 space-x-4 fixed top-0 right-0 z-30 max-sm:px-0 max-sm:space-x-2 max-sm:justify-between md:w-[calc(100vw-320px)] w-full border-b-2 border-gray-400/70 pb-4'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 shrink-0 sm:hidden" onClick={()=>setShowSidebar((prev:any)=>!prev)}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -43,7 +43,7 @@ const Navbar = ({setShowSidebar}:any) => {
                 </defs>
             </svg>
 
-            <small className=' text-lg hover:underline hover:cursor-help max-sm:text-[8px] max-sm:hidden'>How it works</small>
+            <small className=' text-base hover:underline hover:cursor-help max-sm:text-[8px] max-sm:hidden'>How it works</small>
         </aside>
         <SearchBar />
         <section className='flex space-x-3 grow justify-end max-sm:grow-0 max-sm:space-x-1 max-sm:items-center'>

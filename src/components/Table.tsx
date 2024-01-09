@@ -130,7 +130,7 @@ import { ArrowBigDown, Triangle } from "lucide-react"
   
   export function MainTable() {
     return (
-      <Table className="p-10 text-lg">
+      <Table className="md:p-10 md:text-base">
         <TableHeader>
           <TableRow>
             <TableHead>Order ID</TableHead>

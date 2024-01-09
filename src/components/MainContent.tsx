@@ -26,7 +26,7 @@ const MainContent = (props: Props) => {
           </Select>
         </div>
 
-        <Card className="flex items-center md:justify-between justify-evenly md:pl-3 md:ml-3 md:py-6 md:my-6 md:pr-[225px]">
+        <Card className="flex items-center md:justify-between justify-evenly md:pl-3 md:ml-3 md:py-6 md:my-6 md:pr-[200px]">
             <div className=" flex flex-col items-start gap-6">
             <h1>Online Orders</h1>
             <h1 className=" md:text-5xl font-medium">231</h1>

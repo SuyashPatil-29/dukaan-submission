@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import { SheetDemo } from './MobileSidebar'
 
 const SearchBar =()=>
 {
@@ -24,9 +25,7 @@ const SearchBar =()=>
 const Navbar = ({setShowSidebar}:any) => {
   return (
     <nav className='bg-white flex items-center px-8 py-3 space-x-4 fixed top-0 right-0 z-30 max-sm:px-0 max-sm:space-x-2 max-sm:justify-between md:w-[calc(100vw-320px)] w-full border-b-2 border-gray-400/70 pb-4'>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 shrink-0 sm:hidden" onClick={()=>setShowSidebar((prev:any)=>!prev)}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
+        <SheetDemo />
 
         <p className=' text-xl font-medium max-sm:text-sm'>Payments</p>
         <aside className='flex items-center space-x-2.5 grow max-sm:space-x-1 max-sm:grow-0'>

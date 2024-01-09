@@ -40,7 +40,7 @@ const AvailbleCredits=()=>
 
 const Sidebar = () => {
   return (
-    <div className={`w-80 bg-[rgb(30,38,64)] px-2.5 py-4 flex flex-col top-0  min-h-[190vh] text-lg`}>
+    <div className={`w-80 bg-[rgb(30,38,64)] px-2.5 py-4 flex flex-col top-0  min-h-[220vh] text-lg`}>
 
         <ProfileHeader />
         <ul className='space-y-1 mt-6 grow'>

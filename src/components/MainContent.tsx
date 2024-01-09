@@ -4,6 +4,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import TableFilters from "./TableSearch";
 import { MainTable } from "./Table";
 import { PaginationDemo } from "./PaginationComponent";
+import { Card } from "./ui/card";
 
 type Props = {};
 
@@ -25,16 +26,16 @@ const MainContent = (props: Props) => {
           </Select>
         </div>
 
-        <div className=" flex items-center md:justify-between justify-evenly md:pl-8 py-14 md:pr-[225px]">
+        <Card className="flex items-center md:justify-between justify-evenly md:pl-3 md:ml-3 md:py-6 md:my-6 md:pr-[225px]">
             <div className=" flex flex-col items-start gap-6">
             <h1>Online Orders</h1>
-            <h1 className=" md:text-4xl font-medium">231</h1>
+            <h1 className=" md:text-5xl font-medium">231</h1>
             </div>
             <div className=" flex flex-col items-start gap-6">
             <h1>Amount Received</h1>
-            <h1 className=" md:text-4xl font-medium">₹23,92,312.19</h1>
+            <h1 className=" md:text-5xl font-medium">₹23,92,312.19</h1>
             </div>
-        </div>
+        </Card>
 
         <div className=" mb-6">
             <h1 className=" text-xl font-medium">Transations | This Month</h1>

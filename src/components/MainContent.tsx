@@ -25,14 +25,14 @@ const MainContent = (props: Props) => {
           </Select>
         </div>
 
-        <div className=" flex items-center md:justify-between justify-evenly md:pl-8 py-14 md:pr-72">
+        <div className=" flex items-center md:justify-between justify-evenly md:pl-8 py-14 md:pr-[225px]">
             <div className=" flex flex-col items-start gap-6">
             <h1>Online Orders</h1>
-            <h1 className=" md:text-6xl font-medium">231</h1>
+            <h1 className=" md:text-4xl font-medium">231</h1>
             </div>
             <div className=" flex flex-col items-start gap-6">
             <h1>Amount Received</h1>
-            <h1 className=" md:text-6xl font-medium">₹23,92,312.19</h1>
+            <h1 className=" md:text-4xl font-medium">₹23,92,312.19</h1>
             </div>
         </div>
 

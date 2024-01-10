@@ -41,8 +41,10 @@ const MainContent = (props: Props) => {
             <h1 className=" text-xl font-medium">Transations | This Month</h1>
         </div>
 
+        <Card>
         <TableFilters />
         <MainTable />
+        </Card>
         <PaginationDemo />
       </div>
     </div>

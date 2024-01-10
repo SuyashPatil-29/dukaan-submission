@@ -132,7 +132,7 @@ import { ArrowBigDown, Triangle } from "lucide-react"
     return (
       <Table className="md:p-10 md:text-base">
         <TableHeader>
-          <TableRow>
+          <TableRow className=" bg-[rgb(205,205,205)] text-gray-800 hover:bg-[rgb(205,205,205)]">
             <TableHead>Order ID</TableHead>
             <TableHead>Order Date <span><Triangle className="rotate-180 inline h-3 w-3" fill=" gray"/></span></TableHead>
             <TableHead>Order Amount</TableHead>

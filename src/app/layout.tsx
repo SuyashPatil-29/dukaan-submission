@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={cn(inter.className, "min-h-full")}>
         <Navbar />
-        <Sidebar/>
+        <Sidebar />
         {children}
       </body>
     </html>
